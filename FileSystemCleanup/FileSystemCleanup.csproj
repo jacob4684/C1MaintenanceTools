@@ -129,7 +129,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Package\config\App_Data\c1maintenancetools.filesystemcleanup.config" />
-    <None Include="Package\config\web.config" />
+    <None Include="Package\config\web.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Package\config\web.Release.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
